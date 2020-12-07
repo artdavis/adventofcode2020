@@ -1,0 +1,4 @@
+gold bags contain 2 green bags.
+green bags contain 2 blue bags, 3 violet bags.
+blue bags contain 2 violet bags.
+violet bags contain no other bags.
