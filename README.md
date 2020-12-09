@@ -9,3 +9,4 @@ Repo for my [Advent of Code](https://adventofcode.com/) 2020 activity
 - Day 6: [Custom Customs](https://github.com/artdavis/adventofcode2020/blob/main/day06/Custom_Customs.ipynb)
 - Day 7: [Handy Haversacks](https://github.com/artdavis/adventofcode2020/blob/main/day07/Handy_Haversacks.ipynb)
 - Day 8: [Handheld Halting](https://github.com/artdavis/adventofcode2020/blob/main/day08/Handheld_Halting.ipynb)
+- Day 9: [Encoding Error](https://github.com/artdavis/adventofcode2020/blob/main/day09/Encoding_Error.ipynb)
