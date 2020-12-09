@@ -1,6 +1,9 @@
 # adventofcode2020
 Repo for my [Advent of Code](https://adventofcode.com/) 2020 activity
 
+## Navigation
+Jump directly to the jupyter notebook for each problem here:
+
 - Day 1: [Report Repair](https://github.com/artdavis/adventofcode2020/blob/main/day01/Report_Repair.ipynb)
 - Day 2: [Password Philosophy](https://github.com/artdavis/adventofcode2020/blob/main/day02/Password_Philosophy.ipynb)
 - Day 3: [Toboggan Trajectory](https://github.com/artdavis/adventofcode2020/blob/main/day03/Toboggan_Trajectory.ipynb)
@@ -10,3 +13,9 @@ Repo for my [Advent of Code](https://adventofcode.com/) 2020 activity
 - Day 7: [Handy Haversacks](https://github.com/artdavis/adventofcode2020/blob/main/day07/Handy_Haversacks.ipynb)
 - Day 8: [Handheld Halting](https://github.com/artdavis/adventofcode2020/blob/main/day08/Handheld_Halting.ipynb)
 - Day 9: [Encoding Error](https://github.com/artdavis/adventofcode2020/blob/main/day09/Encoding_Error.ipynb)
+
+Each folder contains a `README.md` that was rendered to Markdown from the
+jupyter notebook using the command:
+```
+jupyter nbconvert --output README.md --to markdown <notebook.ipynb>
+```
