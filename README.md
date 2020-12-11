@@ -13,6 +13,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 7: [Handy Haversacks](https://github.com/artdavis/adventofcode2020/blob/main/day07/Handy_Haversacks.ipynb)
 - Day 8: [Handheld Halting](https://github.com/artdavis/adventofcode2020/blob/main/day08/Handheld_Halting.ipynb)
 - Day 9: [Encoding Error](https://github.com/artdavis/adventofcode2020/blob/main/day09/Encoding_Error.ipynb)
+- Day 10: [Adapter Array](https://github.com/artdavis/adventofcode2020/blob/main/day10/Adapter_Array.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
