@@ -15,7 +15,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 9: [Encoding Error](https://github.com/artdavis/adventofcode2020/blob/main/day09/Encoding_Error.ipynb)
 - Day 10: [Adapter Array](https://github.com/artdavis/adventofcode2020/blob/main/day10/Adapter_Array.ipynb)
 - Day 11: [Seating System](https://github.com/artdavis/adventofcode2020/blob/main/day11/Seating_System.ipynb)
-- Day 12: [Rain Risk](https://github.com/artdavis/adventofcode2020/blob/main/day11/Rain_Risk.ipynb)
+- Day 12: [Rain Risk](https://github.com/artdavis/adventofcode2020/blob/main/day12/Rain_Risk.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
