@@ -16,7 +16,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 10: [Adapter Array](https://github.com/artdavis/adventofcode2020/blob/main/day10/Adapter_Array.ipynb)
 - Day 11: [Seating System](https://github.com/artdavis/adventofcode2020/blob/main/day11/Seating_System.ipynb)
 - Day 12: [Rain Risk](https://github.com/artdavis/adventofcode2020/blob/main/day12/Rain_Risk.ipynb)
-- Day 14: [Docking Data](https://github.com/artdavis/adventofcode2020/blob/main/day12/Docking_Data.ipynb)
+- Day 14: [Docking Data](https://github.com/artdavis/adventofcode2020/blob/main/day14/Docking_Data.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
