@@ -16,7 +16,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 10: [Adapter Array](https://github.com/artdavis/adventofcode2020/blob/main/day10/Adapter_Array.ipynb)
 - Day 11: [Seating System](https://github.com/artdavis/adventofcode2020/blob/main/day11/Seating_System.ipynb)
 - Day 12: [Rain Risk](https://github.com/artdavis/adventofcode2020/blob/main/day12/Rain_Risk.ipynb)
-- Day 13: Shuttle Search
+- Day 13: [Shuttle Search](https://github.com/artdavis/adventofcode2020/blob/main/day13/Shuttle_Search.ipynb)
 - Day 14: [Docking Data](https://github.com/artdavis/adventofcode2020/blob/main/day14/Docking_Data.ipynb)
 - Day 15: [Rambunctious Recitation](https://github.com/artdavis/adventofcode2020/blob/main/day15/Rambunctious_Recitation.ipynb)
 
