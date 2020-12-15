@@ -1,6 +1,6 @@
 # Day 13: Shuttle Search
 
-Reference: https://github.com/artdavis/adventofcode2020
+Reference: https://adventofcode.com/2020/day/13
 
 ## Part 1
 
