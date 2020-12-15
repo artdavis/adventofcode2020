@@ -2,7 +2,7 @@
 import numpy as np
 import re
 import pandas as pd
-from functools import reduce
+pd.set_option('display.notebook_repr_html', False)
 from IPython.display import Markdown
 from IPython.core.debugger import set_trace as breakpt
 ```
@@ -98,13 +98,13 @@ while True:
         # Stop as soon as we can catch a bus
         break
     t += 1
-Markdown("We can catch a bust at {} minutes".format(t))
+Markdown("We can catch a bus at {} minutes".format(t))
 ```
 
 
 
 
-We can catch a bust at 1008175 minutes
+We can catch a bus at 1008175 minutes
 
 
 
@@ -300,139 +300,20 @@ df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>busid</th>
-      <th>7</th>
-      <th>13</th>
-      <th>59</th>
-      <th>31</th>
-      <th>19</th>
-    </tr>
-    <tr>
-      <th>t</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>7</th>
-      <td>7</td>
-      <td>8</td>
-      <td>11</td>
-      <td>13</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>14</td>
-      <td>15</td>
-      <td>18</td>
-      <td>20</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>21</td>
-      <td>22</td>
-      <td>25</td>
-      <td>27</td>
-      <td>28</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>28</td>
-      <td>29</td>
-      <td>32</td>
-      <td>34</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>35</td>
-      <td>36</td>
-      <td>39</td>
-      <td>41</td>
-      <td>42</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>42</td>
-      <td>43</td>
-      <td>46</td>
-      <td>48</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>49</td>
-      <td>50</td>
-      <td>53</td>
-      <td>55</td>
-      <td>56</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>56</td>
-      <td>57</td>
-      <td>60</td>
-      <td>62</td>
-      <td>63</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>63</td>
-      <td>64</td>
-      <td>67</td>
-      <td>69</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>70</td>
-      <td>71</td>
-      <td>74</td>
-      <td>76</td>
-      <td>77</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>77</td>
-      <td>78</td>
-      <td>81</td>
-      <td>83</td>
-      <td>84</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>84</td>
-      <td>85</td>
-      <td>88</td>
-      <td>90</td>
-      <td>91</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    busid  7   13  59  31  19
+    t                        
+    7       7   8  11  13  14
+    14     14  15  18  20  21
+    21     21  22  25  27  28
+    28     28  29  32  34  35
+    35     35  36  39  41  42
+    42     42  43  46  48  49
+    49     49  50  53  55  56
+    56     56  57  60  62  63
+    63     63  64  67  69  70
+    70     70  71  74  76  77
+    77     77  78  81  83  84
+    84     84  85  88  90  91
 
 
 
@@ -447,139 +328,20 @@ df % buses.values
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>busid</th>
-      <th>7</th>
-      <th>13</th>
-      <th>59</th>
-      <th>31</th>
-      <th>19</th>
-    </tr>
-    <tr>
-      <th>t</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>7</th>
-      <td>0</td>
-      <td>8</td>
-      <td>11</td>
-      <td>13</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>0</td>
-      <td>2</td>
-      <td>18</td>
-      <td>20</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>0</td>
-      <td>9</td>
-      <td>25</td>
-      <td>27</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>0</td>
-      <td>3</td>
-      <td>32</td>
-      <td>3</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>0</td>
-      <td>10</td>
-      <td>39</td>
-      <td>10</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>0</td>
-      <td>4</td>
-      <td>46</td>
-      <td>17</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>0</td>
-      <td>11</td>
-      <td>53</td>
-      <td>24</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>0</td>
-      <td>5</td>
-      <td>1</td>
-      <td>0</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>0</td>
-      <td>12</td>
-      <td>8</td>
-      <td>7</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>0</td>
-      <td>6</td>
-      <td>15</td>
-      <td>14</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>0</td>
-      <td>0</td>
-      <td>22</td>
-      <td>21</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>0</td>
-      <td>7</td>
-      <td>29</td>
-      <td>28</td>
-      <td>15</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    busid  7   13  59  31  19
+    t                        
+    7       0   8  11  13  14
+    14      0   2  18  20   2
+    21      0   9  25  27   9
+    28      0   3  32   3  16
+    35      0  10  39  10   4
+    42      0   4  46  17  11
+    49      0  11  53  24  18
+    56      0   5   1   0   6
+    63      0  12   8   7  13
+    70      0   6  15  14   1
+    77      0   0  22  21   8
+    84      0   7  29  28  15
 
 
 
@@ -610,147 +372,21 @@ df2
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>busid</th>
-      <th>7</th>
-      <th>13</th>
-      <th>59</th>
-      <th>31</th>
-      <th>19</th>
-    </tr>
-    <tr>
-      <th>t</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>77</th>
-      <td>77</td>
-      <td>78</td>
-      <td>81</td>
-      <td>83</td>
-      <td>84</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>168</td>
-      <td>169</td>
-      <td>172</td>
-      <td>174</td>
-      <td>175</td>
-    </tr>
-    <tr>
-      <th>259</th>
-      <td>259</td>
-      <td>260</td>
-      <td>263</td>
-      <td>265</td>
-      <td>266</td>
-    </tr>
-    <tr>
-      <th>350</th>
-      <td>350</td>
-      <td>351</td>
-      <td>354</td>
-      <td>356</td>
-      <td>357</td>
-    </tr>
-    <tr>
-      <th>441</th>
-      <td>441</td>
-      <td>442</td>
-      <td>445</td>
-      <td>447</td>
-      <td>448</td>
-    </tr>
-    <tr>
-      <th>532</th>
-      <td>532</td>
-      <td>533</td>
-      <td>536</td>
-      <td>538</td>
-      <td>539</td>
-    </tr>
-    <tr>
-      <th>623</th>
-      <td>623</td>
-      <td>624</td>
-      <td>627</td>
-      <td>629</td>
-      <td>630</td>
-    </tr>
-    <tr>
-      <th>714</th>
-      <td>714</td>
-      <td>715</td>
-      <td>718</td>
-      <td>720</td>
-      <td>721</td>
-    </tr>
-    <tr>
-      <th>805</th>
-      <td>805</td>
-      <td>806</td>
-      <td>809</td>
-      <td>811</td>
-      <td>812</td>
-    </tr>
-    <tr>
-      <th>896</th>
-      <td>896</td>
-      <td>897</td>
-      <td>900</td>
-      <td>902</td>
-      <td>903</td>
-    </tr>
-    <tr>
-      <th>987</th>
-      <td>987</td>
-      <td>988</td>
-      <td>991</td>
-      <td>993</td>
-      <td>994</td>
-    </tr>
-    <tr>
-      <th>1078</th>
-      <td>1078</td>
-      <td>1079</td>
-      <td>1082</td>
-      <td>1084</td>
-      <td>1085</td>
-    </tr>
-    <tr>
-      <th>1169</th>
-      <td>1169</td>
-      <td>1170</td>
-      <td>1173</td>
-      <td>1175</td>
-      <td>1176</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    busid    7     13    59    31    19
+    t                                  
+    77       77    78    81    83    84
+    168     168   169   172   174   175
+    259     259   260   263   265   266
+    350     350   351   354   356   357
+    441     441   442   445   447   448
+    532     532   533   536   538   539
+    623     623   624   627   629   630
+    714     714   715   718   720   721
+    805     805   806   809   811   812
+    896     896   897   900   902   903
+    987     987   988   991   993   994
+    1078   1078  1079  1082  1084  1085
+    1169   1169  1170  1173  1175  1176
 
 
 
@@ -763,147 +399,21 @@ df2 % buses.values
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>busid</th>
-      <th>7</th>
-      <th>13</th>
-      <th>59</th>
-      <th>31</th>
-      <th>19</th>
-    </tr>
-    <tr>
-      <th>t</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>77</th>
-      <td>0</td>
-      <td>0</td>
-      <td>22</td>
-      <td>21</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>0</td>
-      <td>0</td>
-      <td>54</td>
-      <td>19</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>259</th>
-      <td>0</td>
-      <td>0</td>
-      <td>27</td>
-      <td>17</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>350</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>15</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>441</th>
-      <td>0</td>
-      <td>0</td>
-      <td>32</td>
-      <td>13</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>532</th>
-      <td>0</td>
-      <td>0</td>
-      <td>5</td>
-      <td>11</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>623</th>
-      <td>0</td>
-      <td>0</td>
-      <td>37</td>
-      <td>9</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>714</th>
-      <td>0</td>
-      <td>0</td>
-      <td>10</td>
-      <td>7</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>805</th>
-      <td>0</td>
-      <td>0</td>
-      <td>42</td>
-      <td>5</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>896</th>
-      <td>0</td>
-      <td>0</td>
-      <td>15</td>
-      <td>3</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>987</th>
-      <td>0</td>
-      <td>0</td>
-      <td>47</td>
-      <td>1</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>1078</th>
-      <td>0</td>
-      <td>0</td>
-      <td>20</td>
-      <td>30</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>1169</th>
-      <td>0</td>
-      <td>0</td>
-      <td>52</td>
-      <td>28</td>
-      <td>17</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    busid  7   13  59  31  19
+    t                        
+    77      0   0  22  21   8
+    168     0   0  54  19   4
+    259     0   0  27  17   0
+    350     0   0   0  15  15
+    441     0   0  32  13  11
+    532     0   0   5  11   7
+    623     0   0  37   9   3
+    714     0   0  10   7  18
+    805     0   0  42   5  14
+    896     0   0  15   3  10
+    987     0   0  47   1   6
+    1078    0   0  20  30   2
+    1169    0   0  52  28  17
 
 
 
