@@ -60,10 +60,10 @@ def elfgame(nturns, n0=N0):
     """
     Parameters
     ----------
-    n0: list
-        List of integer start numbers (e.g [0, 3, 6])
     nturns: int
         Number or turns to report the result for (e.g. 2020)
+    n0: list (default: N0)
+        List of integer start numbers (e.g [0, 3, 6])
         
     Examples:
         n0 = [0, 3, 6] # 2020:1 3E7:175594
