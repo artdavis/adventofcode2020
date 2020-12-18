@@ -21,6 +21,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 15: [Rambunctious Recitation](https://github.com/artdavis/adventofcode2020/blob/main/day15/Rambunctious_Recitation.ipynb)
 - Day 16: [Ticket Translation](https://github.com/artdavis/adventofcode2020/blob/main/day16/Ticket_Translation.ipynb)
 - Day 17: [Conway Cubes](https://github.com/artdavis/adventofcode2020/blob/main/day17/Conway_Cubes.ipynb)
+- Day 18: [Operation Order](https://github.com/artdavis/adventofcode2020/blob/main/day18/Operation_Order.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
