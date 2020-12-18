@@ -55,19 +55,6 @@ eq2 = '((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2' # 13632
 
 
 ```python
-def applytoks(s, loc, toks):
-    print('s:', s)
-    print('loc:', loc)
-    print('toks:', toks)
-    if '+' == toks[1]:
-        return int(toks[0]) + int(toks[2])
-    if '*' == toks[1]:
-        return int(toks[0]) * int(toks[2])
-    raise ValueError("Unhandled token: {}".format(toks[1]))
-```
-
-
-```python
 # Addition '+' and multiplication '*' have the same precedence
 op = pp.oneOf('+ *')
 expr = pp.infixNotation(ppc.integer, [(op, 2, pp.opAssoc.LEFT)])
