@@ -25,6 +25,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 19: [Monster Messages](https://github.com/artdavis/adventofcode2020/blob/main/day19/Monster_Messages.ipynb)
 - Day 20: Jurassic Jigsaw
 - Day 21: [Allergen Assessment](https://github.com/artdavis/adventofcode2020/blob/main/day21/Allergen_Assessment.ipynb)
+- Day 22: [Crab Combat](https://github.com/artdavis/adventofcode2020/blob/main/day22/Crab_Combat.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
