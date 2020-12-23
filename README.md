@@ -23,7 +23,7 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 17: [Conway Cubes](https://github.com/artdavis/adventofcode2020/blob/main/day17/Conway_Cubes.ipynb)
 - Day 18: [Operation Order](https://github.com/artdavis/adventofcode2020/blob/main/day18/Operation_Order.ipynb)
 - Day 19: [Monster Messages](https://github.com/artdavis/adventofcode2020/blob/main/day19/Monster_Messages.ipynb)
-- Day 20: Jurassic Jigsaw
+- Day 20: [Jurassic Jigsaw](https://github.com/artdavis/adventofcode2020/blob/main/day20/Monster_Messages.ipynb)
 - Day 21: [Allergen Assessment](https://github.com/artdavis/adventofcode2020/blob/main/day21/Allergen_Assessment.ipynb)
 - Day 22: [Crab Combat](https://github.com/artdavis/adventofcode2020/blob/main/day22/Crab_Combat.ipynb)
 
