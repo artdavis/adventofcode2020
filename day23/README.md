@@ -403,15 +403,8 @@ for i in range(nrounds):
 ```
 
 
-
-
-    [9, 2, 6, 5, 8, 3, 7, 4, 1]
-
-
-
-
 ```python
-# After cups 1 the labels are:
+# After cup 1 the next two labels are:
 label1 = cups[1]
 label2 = cups[label1]
 ```
