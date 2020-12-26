@@ -27,6 +27,8 @@ Jump directly to the jupyter notebook for each problem here:
 - Day 21: [Allergen Assessment](https://github.com/artdavis/adventofcode2020/blob/main/day21/Allergen_Assessment.ipynb)
 - Day 22: [Crab Combat](https://github.com/artdavis/adventofcode2020/blob/main/day22/Crab_Combat.ipynb)
 - Day 23: [Crab Cups](https://github.com/artdavis/adventofcode2020/blob/main/day23/Crab_Cups.ipynb)
+- Day 24: [Lobby Layout](https://github.com/artdavis/adventofcode2020/blob/main/day24/Lobby_Layout.ipynb)
+- Day 25: [Combo Breaker](https://github.com/artdavis/adventofcode2020/blob/main/day25/Combo_Breaker.ipynb)
 
 Each folder contains a `README.md` that was rendered to Markdown from the
 jupyter notebook using the command:
